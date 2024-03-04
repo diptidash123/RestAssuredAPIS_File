@@ -1,0 +1,67 @@
+[RemoteTestNG] detected TestNG version 7.8.0
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
+s.
+HTTP/1.1 200 OK
+Date: Wed, 21 Feb 2024 06:13:25 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel
+.heroku.com/reports?ts=1708496005&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=Zyg
+xcfXj7VrSNhmbeUM4a4gR8nnUx%2FF1aWem8DSnEKk%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1708496005&sid
+=c4c9725f-1ab0-44d8-820f-430df2718e11&s=ZygxcfXj7VrSNhmbeUM4a4gR8nnUx%2FF1aWem8D
+SnEKk%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_
+fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"54-FdWiravys+z1hKjfJQwqhhSyszM"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 858cd7e1cbb45507-DEL
+Content-Encoding: gzip
+
+{
+    "name": "dipti ranjan",
+    "job": "test engineer",
+    "updatedAt": "2024-02-21T06:13:25.659Z"
+}
+HTTP/1.1 204 No Content
+Date: Wed, 21 Feb 2024 06:13:26 GMT
+Content-Length: 0
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel
+.heroku.com/reports?ts=1708496006&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=FI8
+NxLoMJ%2FkFJEpJPnuVZ1Fot%2FQrKZwXOQUCNyX4jDY%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1708496006&sid
+=c4c9725f-1ab0-44d8-820f-430df2718e11&s=FI8NxLoMJ%2FkFJEpJPnuVZ1Fot%2FQrKZwXOQUC
+NyX4jDY%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_
+fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Server: cloudflare
+CF-RAY: 858cd7e75fd9597c-DEL
+PASSED: APITesting_RestAssured.Testscript1.PutRequestAPI
+PASSED: APITesting_RestAssured.Testscript1.PostRequestAPI_IDcapture
+PASSED: APITesting_RestAssured.Testscript1.DeleteRequestAPI
+
+===============================================
+    Default test
+    Tests run: 3, Failures: 0, Skips: 0
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 3, Passes: 3, Failures: 0, Skips: 0
+===============================================
+

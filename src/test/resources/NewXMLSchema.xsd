@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.example.org/TravelerinformationResponse"
+           xmlns="http://www.example.org/TravelerinformationResponse"
+           elementFormDefault="qualified">
+  <xs:element name="TravelerinformationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="page" type="xs:integer"/>
+        <xs:element name="per_page" type="xs:integer"/>
+        <xs:element name="totalrecord" type="xs:integer"/>
+        <xs:element name="total_pages" type="xs:integer"/>
+        <xs:element name="travelers">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Travelerinformation" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="id" type="xs:integer"/>
+                    <xs:element name="name" type="xs:string"/>
+                    <xs:element name="email" type="xs:string"/>
+                    <xs:element name="adderes" type="xs:string"/>
+                    <xs:element name="createdat" type="xs:dateTime"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
